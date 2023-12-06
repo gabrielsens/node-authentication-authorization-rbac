@@ -1,4 +1,4 @@
-import { IController, IRequest, IResponse }  from '../interfaces/IController';
+import { IController, IRequest, IResponse }  from '../application/interfaces/IController';
 import { SignUpUseCase } from '../application/useCases/SignUpUseCase';
 import { ZodError, z } from 'zod';
 import { AccountAlreadyExists } from '../application/errors/AccountAlreadyExists';

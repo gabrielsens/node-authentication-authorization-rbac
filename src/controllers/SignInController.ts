@@ -1,4 +1,4 @@
-import { IController, IRequest, IResponse }  from '../interfaces/IController';
+import { IController, IRequest, IResponse }  from '../application/interfaces/IController';
 import { SignInUseCase } from '../application/useCases/SignInUseCase';
 import { ZodError, z } from 'zod';
 import { InvalidCredencials } from '../application/errors/InvalidCredencials';
